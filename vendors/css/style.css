@@ -371,11 +371,13 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
 .footer-logo {
   width: 6rem;
   display: flex;
   justify-content: flex-end;
 }
+
 .footer-logo img {
   width: 100%;
 }
@@ -526,6 +528,7 @@ body {
   html {
     font-size: 12px;
   }
+
   .person-image {
     position: absolute;
     right: 1rem;
@@ -533,29 +536,37 @@ body {
     width: 20%;
     z-index: 1;
   }
+
   .heading-sect-left {
     width: 60%;
   }
+
   .heading-sect-right {
     width: 40%;
   }
+
   .main-content-sect {
     width: 100%;
     flex-direction: column;
   }
+
   .main-content-left {
     width: 100%;
     margin-bottom: 2rem;
   }
+
   .main-content-right {
     width: 100%;
   }
+
   .content-details {
     width: 88%;
   }
+
   .footer-logo {
     width: 10%;
   }
+
   .footer-logo img {
     width: 90%;
   }
