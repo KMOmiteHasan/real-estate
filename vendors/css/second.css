@@ -446,11 +446,19 @@ body {
     html {
         font-size: 12px;
     }
+
+    .content-feature {
+        padding: 1.45rem 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 990px) {
     html {
         font-size: 11px;
+    }
+
+    .content-feature {
+        padding: 1.22rem 1.5rem;
     }
 }
 
@@ -458,11 +466,33 @@ body {
     html {
         font-size: 10px;
     }
+
+    .content-feature-main-block,
+    .content-feature-second-block,
+    .content-feature-basement-block {
+        font-size: 0.75rem;
+    }
+
+    .content-feature {
+        padding: 1.24rem 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     html {
         font-size: 12px;
+    }
+
+    .heading-sect-left {
+        width: 60%;
+    }
+
+    .heading-sect-middle {
+        display: none;
+    }
+
+    .heading-sect-right {
+        width: 40%;
     }
 
     .person-image {
